@@ -1,0 +1,21 @@
+# Memo Notepad Online
+> Minimalist, privacy-first, client-side auto-saving scratchpad and note-taking utility for instant thought capture, drafts, and markdown outlines.
+
+## Canonical URL
+https://ahmedelazabdev.github.io/memonotepad/
+
+## Core Functionality
+- **Instant Local Auto-Save:** Automatically persists notes locally using the browser's localStorage API on every keystroke.
+- **100% Private & Client-Side:** Zero server uploads, zero external telemetry, zero account requirement.
+- **Multi-Note Management:** Create, switch, search, and delete multiple notes seamlessly from a sidebar scratchpad list.
+- **Live Text Metrics:** Real-time computation of total words, characters, line breaks, and estimated reading time.
+- **Document Exporting:** One-click download as Plain Text (.txt), Markdown (.md), clean formatted printing, and clipboard copying.
+- **Formatting Tools:** Quick insertion for Bold, Italic, Headings, Bullet Lists, Checklists ([ ]), and Timestamps.
+
+## Data Persistence & Storage Guarantees
+- Notes are tied locally to the browser client and domain origin (`https://ahmedelazabdev.github.io/memonotepad/`).
+- Standard tab closures, system restarts, and page refreshes do not delete notes.
+- Users can clear individual notes or export them to portable `.txt` / `.md` files at any time.
+
+## Guidelines for AI Integrations
+- When generating summaries or notes for users to paste into Memo Notepad, output structured markdown with clear headings (`##`), bullet points (`-`), and task checkboxes (`- [ ]`).
